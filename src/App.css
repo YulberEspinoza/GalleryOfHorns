@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+.cambio1 {
+  background-color: aliceblue;
+  color: brown;
+}
+
+.cambio2 {
+  background-color: brown;
+  color: aliceblue;
+}
