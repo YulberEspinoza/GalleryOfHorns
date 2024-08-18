@@ -1,5 +1,6 @@
 import { useState } from "react";
 import {Button,Card} from 'react-bootstrap'
+
 function HornedBeast(props) {
 const [clicks,setClicks]=useState(0);
 
@@ -14,9 +15,10 @@ function addFavorite(){
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>
-          {props.description}
-        </Card.Text>
-        <Button onClick={addFavorite}>Fav - {clicks}</Button>
+          {props.description}</Card.Text>
+        <Card.Text>Cuernos: {props.horns}</Card.Text>
+        <Card.Text >Keyword: {props.keyword}</Card.Text>
+        <Button onClick={addFavorite}>❤ {clicks}</Button>
       </Card.Body>
     </Card>
     </>
